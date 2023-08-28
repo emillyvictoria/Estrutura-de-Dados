@@ -2,7 +2,7 @@
 
 int main()
 {
-    int array[4] = {5, 7, 9,6};
+    int array[4] = {-5, 7, -9,6};
     int i = 0, menor = array[0], maior = array[0];
 
     for (i = 1; i < 4; i++)
