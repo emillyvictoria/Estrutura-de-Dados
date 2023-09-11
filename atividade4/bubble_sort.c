@@ -10,6 +10,7 @@ void swap (int* n1, int* n2){
 
 void bubble_sort(int arr[], int n){
     int tmp;
+
     for (int i = 0; i < n-1; i++){ // n-1 porque o último elemento já estará ordenado
         for (int j = 0; j < n - 1; j++)
         {
