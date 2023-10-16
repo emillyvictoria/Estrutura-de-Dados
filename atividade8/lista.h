@@ -1,3 +1,6 @@
+#ifndef LISTA_H
+#define LISTA_H
+
 typedef struct No{
     char valor;
     struct No* proximo_no;
@@ -16,3 +19,5 @@ void lista_imprimir_inversa(No* L);
 void lista_inserir_no_i(No* L, int i);
 void lista_remover_no_i(No* L, int i);
 void lista_remover_no(No* L, char valor_busca);
+
+#endif

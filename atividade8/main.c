@@ -13,13 +13,13 @@ int main(int argc, char* argv[]){
     lista_inserir_no(n0, n3);
 
     lista_imprimir(n0);
-    printf("\nQuantidade de nós: %d", lista_quantidade_nos(n0));
+    printf("\nQuantidade de nos: %d", lista_quantidade_nos(n0));
 
     char valor_busca = 'D';
-    printf("\nVerificar existência de '%c': %d", valor_busca, lista_verificar_existencia(n0, valor_busca));
+    printf("\nVerificar existencia de '%c': %d", valor_busca, lista_verificar_existencia(n0, valor_busca));
 
     valor_busca = 'C';
-    printf("\nOcorrências de '%c': %d", valor_busca, lista_verificar_ocorrencias(n0, valor_busca));
+    printf("\nOcorrencias de '%c': %d", valor_busca, lista_verificar_ocorrencias(n0, valor_busca));
 
     printf("\nLista em ordem inversa: ");
     lista_imprimir_inversa(n0);
@@ -33,7 +33,7 @@ int main(int argc, char* argv[]){
     valor_busca = 'C';
     lista_remover_no(n0, valor_busca);
 
-    printf("\nLista após operações:\n");
+    printf("\nLista apos operacoes:\n");
     lista_imprimir(n0);
     printf("\n");
 

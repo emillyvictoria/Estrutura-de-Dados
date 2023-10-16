@@ -50,8 +50,9 @@ void lista_liberar(No* L){
         lista_liberar(L->proximo_no);
         free(L);
     }
+}
 
-    int lista_verificar_existencia(No* L, char valor_busca) {
+int lista_verificar_existencia(No* L, char valor_busca) {
     while (L != NULL) {
         if (L->valor == valor_busca) {
             return 1; // Valor encontrado
@@ -117,5 +118,4 @@ void lista_remover_no(No* L, char valor_busca) {
             L = L->proximo_no;
         }
     }
-}
 }
